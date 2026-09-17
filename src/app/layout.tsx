@@ -13,13 +13,13 @@ const geistMono = Roboto_Condensed({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gs-odyssee.com"),
+  metadataBase: new URL("https://gs-lodyssee.com"),
   title: {
-    template: "%s | Groupe Scolaire L'Odyssée",
-    default: "Groupe Scolaire L'Odyssée - De la crèche au collège",
+    template: "%s | Groupe Scolaire L’Odyssée",
+    default: "Groupe Scolaire L’Odyssée - De la crèche au collège | Excellence Éducative",
   },
   description:
-    "Le Groupe Scolaire L'Odyssée accueille vos enfants de la crèche au collège dans un cadre éducatif stimulant, axé sur l’excellence, l’épanouissement et l’égalité des chances.",
+    "Groupe Scolaire L’Odyssée : Éducation d’excellence de la crèche au collège. Enseignement innovant, bilingue et inclusif. Inscrivez vos enfants maintenant.",
   keywords: [
     "école privée",
     "groupe scolaire",
@@ -27,18 +27,21 @@ export const metadata: Metadata = {
     "maternelle",
     "élémentaire",
     "collège",
-    "enseignement privé Maroc",
-    "école Rabat",
+    "enseignement privé Congo",
+    "école Pointe-Noire",
     "éducation L’Odyssée",
     "inscription école privée",
-    "programme scolaire Maroc",
+    "programme scolaire innovant",
     "valeurs éducatives",
     "activités périscolaires",
-    "enseignement de qualité"
+    "enseignement de qualité",
+    "éducation bilingue",
+    "développement intégral"
   ],
   icons: {
     icon: "/favicon.jpg",
-     },
+    apple: "/favicon.jpg",
+  },
   robots: {
     index: true,
     follow: true,

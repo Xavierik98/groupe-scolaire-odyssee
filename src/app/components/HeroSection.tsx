@@ -28,17 +28,15 @@ const HeroSection = () => {
       className="relative h-screen w-full overflow-hidden"
       aria-label="Bannière principale"
     >
-      {/* VIDEO BACKGROUND */}
-      <video
+      {/* IMAGE BACKGROUND */}
+      <Image
+        src="/hero-bg.jpeg"
+        alt="Groupe Scolaire L'Odyssée - Héros"
+        fill
         className="absolute inset-0 w-full h-full object-cover"
-        src="/videos/hero-video.mp4"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        Sorry, your browser doesn't support embedded videos.
-      </video>
+        priority
+        quality={85}
+      />
 
       {/* Overlay sombre plus léger pour clarté */}
       <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
