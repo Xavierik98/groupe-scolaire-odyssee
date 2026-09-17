@@ -65,12 +65,12 @@ const testimonials = [
 ];
 
 export const metadata: Metadata = {
-  title: 'Groupe Scolaire L\'Odyssée | Excellence Éducative de la Crèche au Collège',
-  description: 'Groupe Scolaire Privé L\'Odyssée : excellence éducative de la crèche au collège. Programme intensif, activités extrascolaires et collaboration parents-enseignants pour l\'égalité des chances.',
-  keywords: 'école privée Maroc, groupe scolaire, crèche, maternelle, élémentaire, collège, excellence éducative, activités extrascolaires, pédagogie, inscription école, éducation Maroc',
+  title: 'Groupe Scolaire L\'Odyssée | École Privée à Pointe-Noire, Congo-Brazzaville',
+  description: 'Groupe Scolaire Privé L\'Odyssée à Pointe-Noire, République du Congo : excellence éducative de la crèche au collège. Programme intensif, activités extrascolaires et collaboration parents-enseignants pour l\'égalité des chances.',
+  keywords: 'Groupe Scolaire L\'Odyssée, école privée Congo Brazzaville, école privée Pointe-Noire, groupe scolaire Pointe-Noire, crèche Pointe-Noire, maternelle Congo, élémentaire Congo, collège Pointe-Noire, meilleure école Pointe-Noire, excellence éducative, activités extrascolaires, inscription école privée République du Congo',
   openGraph: {
-    title: 'Groupe Scolaire L\'Odyssée | Excellence Éducative',
-    description: 'Votre partenaire éducatif de la crèche au collège. Excellence, activités extrascolaires et égalité des chances.',
+    title: 'Groupe Scolaire L\'Odyssée | École Privée à Pointe-Noire, Congo-Brazzaville',
+    description: 'Votre partenaire éducatif de la crèche au collège à Pointe-Noire, République du Congo. Excellence, activités extrascolaires et égalité des chances.',
     type: 'website',
     locale: 'fr_FR',
     siteName: 'Groupe Scolaire L\'Odyssée',
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
   viewport: 'width=device-width, initial-scale=1',
   themeColor: '#223F7B',
   alternates: {
-    canonical: 'https://www.gs-lodyssee.com'
+    canonical: 'https://www.xn--gs-lodysse-j7a.com'
   }
 };
 

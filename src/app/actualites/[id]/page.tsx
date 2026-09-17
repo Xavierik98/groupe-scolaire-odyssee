@@ -37,7 +37,7 @@ export async function generateMetadata(
       follow: true,
     },
     alternates: {
-      canonical: `https://www.lodyssee.ma/actualites/${params.id}`,
+      canonical: `https://www.xn--gs-lodysse-j7a.com/actualites/${params.id}`,
     },
   };
 }
@@ -90,7 +90,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
     );
   }
 
-  const shareUrl = `https://www.lodyssee.ma/actualites/${params.id}`;
+  const shareUrl = `https://www.xn--gs-lodysse-j7a.com/actualites/${params.id}`;
   const shareText = `${news.title} - Groupe Scolaire L'Odyssée`;
 
   return (

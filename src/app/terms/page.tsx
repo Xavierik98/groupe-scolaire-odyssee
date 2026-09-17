@@ -23,7 +23,7 @@ const TermsPage = () => {
               <section>
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">1. Acceptation des Conditions</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  En accédant et en utilisant le site web de JACK Industries, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site.
+                  En accédant et en utilisant le site web du Groupe Scolaire L'Odyssée, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site.
                 </p>
               </section>
 
@@ -35,35 +35,35 @@ const TermsPage = () => {
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">3. Produits et Services</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">3. Inscriptions et Scolarité</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Les informations sur les produits et services fournis sur ce site sont à titre indicatif uniquement. JACK Industries se réserve le droit de modifier les spécifications des produits sans préavis.
+                  Les informations relatives aux niveaux d'enseignement, tarifs et modalités d'inscription présentées sur ce site sont à titre indicatif. Le Groupe Scolaire L'Odyssée se réserve le droit de modifier son programme, ses tarifs ou ses conditions d'admission sans préavis.
                 </p>
                 <ul className="list-disc list-inside mt-2 space-y-2 text-gray-700">
-                  <li>Les prix sont sujets à modification sans préavis</li>
-                  <li>La disponibilité des produits n'est pas garantie</li>
-                  <li>Les images des produits sont non contractuelles</li>
+                  <li>Toute inscription est soumise à la disponibilité des places et à un entretien préalable</li>
+                  <li>Les tarifs de scolarité peuvent être révisés chaque année scolaire</li>
+                  <li>Les photos et contenus présentés sont non contractuels</li>
                 </ul>
               </section>
 
               <section>
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">4. Propriété Intellectuelle</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Tout le contenu du site (textes, images, logos, etc.) est la propriété de JACK Industries ou de ses partenaires et est protégé par les lois sur la propriété intellectuelle.
+                  Tout le contenu du site (textes, images, logos, etc.) est la propriété du Groupe Scolaire L'Odyssée ou de ses partenaires et est protégé par les lois sur la propriété intellectuelle.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">5. Commandes et Paiements</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">5. Modalités de Paiement</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  En passant une commande, vous vous engagez à fournir des informations exactes et complètes. Les modalités de paiement et de livraison seront discutées lors de la confirmation de la commande.
+                  En procédant à une inscription, vous vous engagez à fournir des informations exactes et complètes. Les modalités de paiement des frais de scolarité seront communiquées par notre équipe administrative lors de la confirmation de l'inscription.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">6. Limitation de Responsabilité</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  JACK Industries ne peut être tenu responsable des dommages directs ou indirects résultant de l'utilisation ou de l'impossibilité d'utiliser le site.
+                  Le Groupe Scolaire L'Odyssée ne peut être tenu responsable des dommages directs ou indirects résultant de l'utilisation ou de l'impossibilité d'utiliser le site.
                 </p>
               </section>
 
@@ -73,8 +73,8 @@ const TermsPage = () => {
                   Pour toute question concernant ces conditions d'utilisation, contactez-nous à :
                 </p>
                 <div className="mt-2 text-gray-700">
-                  <p>Email : contact@jackindustries.ma</p>
-                  <p>Téléphone : +212 6 16 96 65 09</p>
+                  <p>Email : contact@gs-lodyssée.com</p>
+                  <p>Téléphone : +242 05 585 02 02</p>
                 </div>
               </section>
             </div>
@@ -86,4 +86,4 @@ const TermsPage = () => {
   );
 };
 
-export default TermsPage; 
+export default TermsPage;

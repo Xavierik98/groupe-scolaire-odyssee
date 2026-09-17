@@ -3,7 +3,7 @@ import { getMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = getMetadata({
   title: 'Politique de Confidentialité',
-  description: 'Découvrez notre politique de confidentialité et comment JACK Industries protège vos données personnelles.'
+  description: 'Découvrez notre politique de confidentialité et comment le Groupe Scolaire L\'Odyssée protège vos données personnelles.'
 });
 
 export default function PrivacyLayout({

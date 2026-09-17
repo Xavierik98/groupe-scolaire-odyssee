@@ -27,9 +27,9 @@ const PrivacyPage = () => {
                 </p>
                 <ul className="list-disc list-inside mt-2 space-y-2 text-gray-700">
                   <li>Remplissez notre formulaire de contact</li>
-                  <li>Passez une commande</li>
+                  <li>Effectuez une demande d'inscription pour votre enfant</li>
                   <li>Vous inscrivez à notre newsletter</li>
-                  <li>Communiquez avec notre service client</li>
+                  <li>Communiquez avec notre équipe administrative</li>
                 </ul>
               </section>
 
@@ -39,17 +39,17 @@ const PrivacyPage = () => {
                   Les informations que nous collectons sont utilisées pour :
                 </p>
                 <ul className="list-disc list-inside mt-2 space-y-2 text-gray-700">
-                  <li>Traiter vos commandes et demandes</li>
-                  <li>Améliorer nos services</li>
-                  <li>Communiquer avec vous concernant nos produits et services</li>
-                  <li>Personnaliser votre expérience sur notre site</li>
+                  <li>Traiter vos demandes d'inscription et de renseignements</li>
+                  <li>Assurer le suivi pédagogique et administratif des élèves</li>
+                  <li>Communiquer avec vous concernant la scolarité de votre enfant</li>
+                  <li>Améliorer nos services éducatifs</li>
                 </ul>
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">3. Protection des Données</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">3. Protection des Données des Élèves</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre tout accès non autorisé, modification, divulgation ou destruction.
+                  Les données personnelles concernant les élèves mineurs font l'objet d'une attention particulière. Nous mettons en œuvre des mesures de sécurité appropriées pour protéger ces informations contre tout accès non autorisé, modification, divulgation ou destruction. Ces données ne sont utilisées qu'à des fins pédagogiques et administratives internes.
                 </p>
               </section>
 
@@ -61,18 +61,25 @@ const PrivacyPage = () => {
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">5. Contact</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">5. Droits des Parents et Tuteurs</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  En tant que parent ou tuteur légal, vous disposez d'un droit d'accès, de rectification et de suppression des données personnelles concernant votre enfant. Pour exercer ces droits, contactez notre équipe administrative.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">6. Contact</h2>
                 <p className="text-gray-700 leading-relaxed">
                   Pour toute question concernant notre politique de confidentialité, vous pouvez nous contacter à :
                 </p>
                 <div className="mt-2 text-gray-700">
-                  <p>Email : privacy@jackindustries.ma</p>
-                  <p>Téléphone : +212 6 16 96 65 09</p>
+                  <p>Email : contact@gs-lodyssée.com</p>
+                  <p>Téléphone : +242 05 585 02 02</p>
                 </div>
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">6. Modifications</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">7. Modifications</h2>
                 <p className="text-gray-700 leading-relaxed">
                   Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Les modifications entrent en vigueur dès leur publication sur le site.
                 </p>
@@ -86,4 +93,4 @@ const PrivacyPage = () => {
   );
 };
 
-export default PrivacyPage; 
+export default PrivacyPage;

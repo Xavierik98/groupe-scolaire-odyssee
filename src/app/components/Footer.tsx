@@ -103,7 +103,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <HiOutlineMail className="mt-1 text-[#D93030]" />
-                  <span>contact@lodyssee.com</span>
+                  <span>contact@gs-lodyssée.com</span>
                 </li>
               </ul>
             </motion.div>

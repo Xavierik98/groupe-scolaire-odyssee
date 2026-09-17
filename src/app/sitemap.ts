@@ -1,53 +1,52 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.jackindustries.ma'
-  
-  // Pages statiques principales
+  const baseUrl = 'https://www.xn--gs-lodysse-j7a.com'
+
   const mainPages = [
     {
       url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: 'daily' as const,
+      changeFrequency: 'weekly' as const,
       priority: 1,
     },
     {
-      url: `${baseUrl}/produits`,
+      url: `${baseUrl}/niveaux`,
       lastModified: new Date(),
-      changeFrequency: 'daily' as const,
+      changeFrequency: 'monthly' as const,
       priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/categories`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
     },
     {
       url: `${baseUrl}/propos`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/actualites`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/contact`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
-      priority: 0.6,
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/privacy`,
       lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.5,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
     },
     {
       url: `${baseUrl}/terms`,
       lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.5,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
     },
   ]
 
   return [...mainPages]
-} 
+}

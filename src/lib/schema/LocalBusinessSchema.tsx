@@ -2,39 +2,37 @@ import { LocalBusiness } from 'schema-dts';
 
 export const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'JACK Industries Showroom',
-  image: 'https://www.jackindustries.ma/images/showroom.jpg',
-  '@id': 'https://www.jackindustries.ma/#showroom',
-  url: 'https://www.jackindustries.ma',
-  telephone: '+212 6 16 96 65 09',
+  '@type': 'School',
+  name: "Groupe Scolaire L'Odyssée",
+  image: 'https://www.xn--gs-lodysse-j7a.com/hero-bg.jpeg',
+  '@id': 'https://www.xn--gs-lodysse-j7a.com/#ecole',
+  url: 'https://www.xn--gs-lodysse-j7a.com',
+  telephone: '+242 05 585 02 02',
+  email: 'contact@gs-lodyssée.com',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '[Adresse du showroom]',
-    addressLocality: 'Casablanca',
-    postalCode: '[Code postal]',
-    addressCountry: 'MA'
+    streetAddress:
+      "97116, Rue de BOUK' LI - BWALI, Camp 31 juillet, vers le PELLIGRINI et la direction d'OFIS",
+    addressLocality: 'Pointe-Noire',
+    addressCountry: 'CG',
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: '[Latitude]',
-    longitude: '[Longitude]'
+    latitude: -4.7975,
+    longitude: 11.8639,
+  },
+  areaServed: {
+    '@type': 'City',
+    name: 'Pointe-Noire',
   },
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      opens: '09:00',
-      closes: '18:00'
+      opens: '07:30',
+      closes: '17:00',
     },
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: 'Saturday',
-      opens: '09:00',
-      closes: '16:00'
-    }
   ],
   priceRange: '$$',
-  currenciesAccepted: 'MAD',
-  hasMap: 'https://maps.app.goo.gl/xfRYSWF8jQosQrV2A'
-} as LocalBusiness; 
+  currenciesAccepted: 'XAF',
+} as unknown as LocalBusiness;

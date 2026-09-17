@@ -13,7 +13,7 @@ export const createBreadcrumbSchema = (items: BreadcrumbItem[]) => {
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://www.jackindustries.ma${item.url}`
+      item: `https://www.xn--gs-lodysse-j7a.com${item.url}`
     }))
   } as BreadcrumbList;
 }; 

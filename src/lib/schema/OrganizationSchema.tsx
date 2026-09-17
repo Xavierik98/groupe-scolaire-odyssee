@@ -2,66 +2,73 @@ import { Organization } from 'schema-dts';
 
 export const organizationSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Organization',
-  name: 'JACK Industries',
-  url: 'https://www.jackindustries.ma',
-  logo: 'https://www.jackindustries.ma/images/logo.png',
-  description: 'Fournisseur leader de matériel de construction, outils et quincaillerie au Maroc. Spécialiste en outillage professionnel et équipements de construction.',
-  slogan: 'Votre partenaire de confiance en matériel de construction',
+  '@type': 'EducationalOrganization',
+  name: "Groupe Scolaire L'Odyssée",
+  url: 'https://www.xn--gs-lodysse-j7a.com',
+  logo: 'https://www.xn--gs-lodysse-j7a.com/logo.png',
+  description:
+    "Groupe Scolaire Privé L'Odyssée : éducation d'excellence de la crèche au collège à Pointe-Noire, République du Congo. Enseignement innovant, bilingue et inclusif.",
+  slogan: 'Votre partenaire éducatif depuis 1995',
   foundingDate: '1995',
   address: {
     '@type': 'PostalAddress',
-    addressCountry: 'MA',
-    addressLocality: 'Casablanca',
-    streetAddress: '[Votre adresse exacte]',
-    postalCode: '[Code postal]',
+    addressCountry: 'CG',
+    addressLocality: 'Pointe-Noire',
+    streetAddress:
+      "97116, Rue de BOUK' LI - BWALI, Camp 31 juillet, vers le PELLIGRINI et la direction d'OFIS",
   },
   contactPoint: [
     {
       '@type': 'ContactPoint',
-      telephone: '+212 6 16 96 65 09',
+      telephone: '+242 05 585 02 02',
       contactType: 'customer service',
-      availableLanguage: ['fr', 'ar'],
-      areaServed: 'MA',
+      availableLanguage: ['fr'],
+      areaServed: 'CG',
       hoursAvailable: {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-        opens: '09:00',
-        closes: '18:00'
-      }
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '07:30',
+        closes: '17:00',
+      },
     },
     {
       '@type': 'ContactPoint',
-      telephone: '+212 6 16 96 65 09',
-      contactType: 'sales',
-      availableLanguage: ['fr', 'ar'],
-      areaServed: 'MA'
-    }
+      telephone: '+242 04 061 34 48',
+      contactType: 'admissions',
+      availableLanguage: ['fr'],
+      areaServed: 'CG',
+    },
   ],
+  email: 'contact@gs-lodyssée.com',
   sameAs: [
-    'https://web.facebook.com/jack.industries.2024/',
-    'https://www.linkedin.com/company/jack-industrie/',
+    'https://web.facebook.com/GroupeScolaireOdyssee/',
+    'https://www.tiktok.com/@groupe.scolaire.odyssee',
+    'https://www.linkedin.com/company/groupe-scolaire-odyssee/',
   ],
   areaServed: {
-    '@type': 'Country',
-    name: 'Maroc'
+    '@type': 'City',
+    name: 'Pointe-Noire',
   },
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    name: 'Catalogue JACK Industries',
+    name: "Niveaux d'enseignement L'Odyssée",
     itemListElement: [
       {
         '@type': 'OfferCatalog',
-        name: 'Outillage Professionnel'
+        name: 'Crèche',
       },
       {
         '@type': 'OfferCatalog',
-        name: 'Matériel de Construction'
+        name: 'Maternelle',
       },
       {
         '@type': 'OfferCatalog',
-        name: 'Quincaillerie'
-      }
-    ]
-  }
-} as Organization; 
+        name: 'Élémentaire',
+      },
+      {
+        '@type': 'OfferCatalog',
+        name: 'Collège',
+      },
+    ],
+  },
+} as unknown as Organization;

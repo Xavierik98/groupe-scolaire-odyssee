@@ -25,7 +25,7 @@ export const createReviewSchema = (review: ReviewDetails) => {
     datePublished: review.datePublished,
     publisher: {
       '@type': 'Organization',
-      name: 'JACK Industries'
+      name: "Groupe Scolaire L'Odyssée"
     }
   } as Review;
 }; 

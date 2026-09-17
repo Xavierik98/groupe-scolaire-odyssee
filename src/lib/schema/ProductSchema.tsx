@@ -53,7 +53,7 @@ export const createProductSchema = (product: ProductDetails) => {
         : 'https://schema.org/OutOfStock',
       seller: {
         '@type': 'Organization',
-        name: 'JACK Industries',
+        name: "Groupe Scolaire L'Odyssée",
       },
       priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
     },

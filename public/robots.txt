@@ -1,0 +1,19 @@
+# Google SEO Robots File
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Crawler settings
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://www.xn--gs-lodysse-j7a.com/sitemap.xml
+
+# Google Search Console
+User-agent: Googlebot
+Allow: /
+
+# Bing Bingbot
+User-agent: Bingbot
+Allow: /
